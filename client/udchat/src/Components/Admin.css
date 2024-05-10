@@ -1,0 +1,108 @@
+/* Main body and overall layout */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for both login and logged-in containers */
+.login-container, .logged-in-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Adjust start for top alignment */
+  max-width: 600px;
+  margin: 40px auto; /* Centering in the viewport with top margin */
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Headings within the container */
+.login-container h1, .logged-in-container h1 {
+  font-size: 2rem;
+  color: #426b1f;
+  margin: 0.5rem 0;
+}
+
+/* Paragraphs for additional information */
+.login-container p, .logged-in-container p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Input fields styling for login form */
+.login-container input {
+  width: calc(100% - 20px); /* Accounting for padding */
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 20px; /* Rounded edges for inputs */
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.login-container button, .logged-in-container button {
+  padding: 10px 20px;
+  margin: 10px 5px; /* Spacing around buttons */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px; /* More pronounced rounded corners */
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.login-container button:hover, .logged-in-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Specific styling for the logged-in message */
+.logged-in-message {
+  font-size: 1.25rem;
+  color: #426B1F;
+  margin-bottom: 1.5rem;
+  padding: 10px;
+  border-bottom: 2px solid #eee; /* Visual separation from buttons */
+  width: 100%;
+}
+
+/* Error message styling for consistency */
+.error-message {
+  color: #ff0000;
+  background-color: #ffecec;
+  border: 1px solid #ff0000;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  width: calc(100% - 40px); /* Adjusted to fit within container padding */
+}
+
+
+.community-button {
+  font-family: Inter;
+  font-style: normal;
+  background-color: #8A9A5B; /* Mossy green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding around text */
+  margin: 10px 0; /* Adds space between buttons */
+  border: none; /* No border */
+  border-radius: 5px; /* Slightly rounded edges */
+  text-align: center; /* Center text within button */
+  display: block; /* Display as a block to fill the container width */
+  font-size: 16px; /* Size of the text */
+  cursor: pointer; /* Change mouse cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  text-decoration: none; /* Remove underline from links if buttons are <a> tags */
+  width: 80%; /* Width of button, adjust as needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width an
+}
+  
+.community-button:hover {
+  background-color: #768948; /* Darker mossy green on hover */
+}

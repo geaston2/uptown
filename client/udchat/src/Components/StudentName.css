@@ -1,0 +1,32 @@
+.name-selection-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2em 0;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.name-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  display: inline-block;
+  text-align: left;
+}
+
+.name-item {
+  margin: 10px 0;
+  font-family: 'Jacques Francois', serif;
+  font-size: 1.2em;
+}
+
+.name-link {
+  color: #D92121; /* Bold and vivid color */
+  font-weight: bold; /* Makes the text bold */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.name-link:hover {
+  color: #333333;
+}

@@ -1,0 +1,76 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 400px; /* Reduced max-width for better control */
+  margin: 10px 0; /* Reduced margin for compact spacing */
+}
+
+.inputContainer label {
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+.inputContainer input,
+.inputContainer textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 25px; /* More rounded edges */
+  resize: none;
+}
+
+.inputContainer textarea.notes {
+  min-height: 80px; /* Adjusted for consistency */
+}
+
+.signUpText {
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  font-size: 36px; /* Adjusted for a more compact header */
+  color: #426B1F;
+  text-align: center;
+  margin: 15px 0; /* Adjusted margin */
+}
+
+.error {
+  background-color: #f8d7da; /* Light red */
+  color: #721c24; /* Dark red */
+  border: 1px solid #f5c6cb; /* Red border */
+  padding: 10px; /* Padding around the text */
+  margin-bottom: 10px; /* Margin at the bottom to separate from other elements */
+}
+
+.confirmationMessage {
+  background-color: #d4edda; /* Light green */
+  color: #155724; /* Dark green */
+  border: 1px solid #c3e6cb; /* Green border */
+  padding: 10px; /* Padding around the text */
+  margin-bottom: 10px; /* Margin at the bottom to separate from other elements */
+}
+
+
+.cartButton {
+  padding: 10px 20px; /* Adjusted padding for a more proportionate button */
+  background: #426B1F;
+  color: white;
+  border: none;
+  border-radius: 25px; /* Increased for more rounded edges */
+  cursor: pointer;
+  font-size: 16px; /* Adjusted font size for button text */
+  transition: background-color 0.2s;
+}
+
+.cartButton:hover {
+  background-color: #365a17;
+}

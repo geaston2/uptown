@@ -1,0 +1,52 @@
+.home-page-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #FFFFFF;
+}
+
+.section-title {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3em;
+  line-height: 130%;
+  color: #426B1F;
+  margin-top: 5%;
+}
+
+.section-content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 130%;
+  color: #000000;
+  margin-top: 3%;
+}
+
+
+p {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.donations-title{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3em;
+  line-height: 130%;
+  color: #426B1F;
+  margin-top: 3%;
+}
